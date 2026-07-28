@@ -26,6 +26,7 @@ Note: find the corresponding veresion
 2. [mamba_ssm](https://github.com/state-spaces/mamba/releases/tag/v1.0.1)
 `mamba_ssm-1.0.1+cu118torch2.0cxx11abiFALSE-cp39-cp39-linux_x86_64.whl`  
 you can also download them easily [here](https://drive.google.com/drive/folders/1lsb6MfmGF8OmhqaishnBc69TFNxsabHP)
+Please note that you may encounter network issues during the installation of `causal_conv1d` and `mamba_ssm`, which could cause the process to continuously hang at `Building wheel for mamba ssm (setup.py).` Therefore, please download the `.whl` files from [Baidu Netdisk](https://pan.baidu.com/s/1ko_q8WlaagqxZVG-3M3zyg?pwd=0325)  or [Google Drive](https://drive.google.com/drive/folders/1IKsjCBSRgcdvYkiqQnGWsqGEbefFV3zI?usp=sharing) and copy them locally. Then, run the following command for manual installation.
 
 ```
 pip install causal_conv1d-1.0.0+cu118torch2.0cxx11abiFALSE-cp39-cp39-linux_x86_64.whl  
@@ -57,3 +58,25 @@ python evaluate.py
 ```
 ## Visual comparison
 ![](./Figures/comparison.png)
+
+### 7.Acknowledgments
+
+We thank the following article and the authors  for their open-source codes.
+
+```
+@inproceedings{Retinexmamba,
+	title={Retinexmamba: Retinex-based Mamba for Low-light Image Enhancement},
+	author={Jiesong Bai and Yuhao Yin and Qiyuan He and Yuanxian Li and Xiaofeng Zhang},
+	booktitle={International Conference on Neural Information Processing (ICONIP)},
+	year={2024}
+}
+
+@article{DiffLL,
+author = {Jiang, Hai and Luo, Ao and Fan, Haoqiang and Han, Songchen and Liu, Shuaicheng},
+title = {Low-Light Image Enhancement with Wavelet-Based Diffusion Models},
+year = {2023},
+journal = {ACM Trans. Graph.},
+articleno = {238},
+numpages = {14}
+}
+```
