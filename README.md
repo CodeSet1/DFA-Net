@@ -1,5 +1,5 @@
-# DFA-Net: An efficient diffusion with frequency directional feature augmentation for low-light image enhancement
-This is the code for **DFA-Net: An efficient diffusion with frequency directional feature augmentation for low-light image enhancement** by Wengai Li, Zhaolin Xiao and Haonan Su
+# DFA-Net: An Efficient Diffusion With Directional Frequency Feature Augmentation for Low-Light Image Enhancement
+This is the official code for **DFA-Net: An efficient diffusion with frequency directional feature augmentation for low-light image enhancement**.
 
 ## Pipeline
 ![](./Figures/pipeline.png)
